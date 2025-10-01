@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh Mandal | Interactive Resume</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Defer loading of JS for faster page load -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Floating Decorative Elements -->
+    <div class="floating-elements">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+        <div class="circle c5"></div>
+        <div class="circle c6"></div>
+    </div>
+
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="main-header animate-on-scroll">
+            <div class="container header-content">
+                <div>
+                    <h1 class="name-title">Hitesh Kumar Ajay Kumar Mandal</h1>
+                    <p class="job-titles">
+                        Store Incharge • Executive Buyer • Business Development • Sales & Marketing • Logistics
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div>📞 +971-528235077</div>
+                    <div>✉️ hiteshhothhh@gmail.com</div>
+                    <a href="https://www.linkedin.com/in/hitesh-mandal-89100474" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                        LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <!-- Left Features -->
+                <div class="hero-feature animate-on-scroll">
+                    <div class="feature-text">
+                        <h2>Great Quality Professional Experience</h2>
+                        <p>High-impact procurement and store management delivered across large engineering projects and e-commerce operations.</p>
+                    </div>
+                    <div class="feature-cards">
+                        <div class="feature-card" data-scroll-to="summary">
+                            <h3>Sustainable Lifestyle</h3>
+                            <p>Champion for reducing waste, optimizing stock and supporting green processes.</p>
+                        </div>
+                        <div class="feature-card" data-scroll-to="experience">
+                            <h3>Friendly Experience</h3>
+                            <p>Strong vendor relationships & smooth logistics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Center Phone Mockup -->
+                <div class="phone-container animate-on-scroll">
+                    <div class="phone-mockup">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <!-- App Header -->
+                            <div class="phone-header">
+                                <div class="app-title">
+                                    <span class="app-brand">eJaby</span>
+                                    <span></span>
+                                </div>
+                                <span class="app-location">Abu Dhabi</span>
+                            </div>
+
+                            <!-- Scrollable Content -->
+                            <div class="phone-content">
+                                <div id="phone-summary" class="phone-card">
+                                    <h4>Summary</h4>
+                                    <p>Results-driven Procurement & Store Management Professional with 18+ years in UAE & India.</p>
+                                </div>
+                                <div id="phone-experience" class="phone-card">
+                                    <h4>Current Role</h4>
+                                    <p><strong>Store Incharge — L&T (2024–Present)</strong><br/>Proactive Store Incharge overseeing inventory, logistics, and rental material mobilization.</p>
+                                </div>
+                                <div class="phone-card">
+                                    <h4>E-commerce & BD</h4>
+                                    <p>Managed Amazon, BigBasket, Flipkart Grocery; negotiated JBPs & festive launches.</p>
+                                </div>
+                                <div id="phone-skills" class="phone-card">
+                                    <h4>Skills</h4>
+                                    <p>Inventory Management • Procurement • ERP • Power BI • Digital Marketing • Team Leadership</p>
+                                </div>
+                                <div id="phone-education" class="phone-card">
+                                    <h4>Education & Certificates</h4>
+                                    <p>Supply Chain Management, Digital Marketing, Power BI, ERP Training</p>
+                                </div>
+                                <div class="phone-card">
+                                    <h4>Achievements</h4>
+                                    <div class="phone-tags">
+                                        <span>18+ yrs</span>
+                                        <span>100+ team</span>
+                                    </div>
+                                </div>
+                                <div id="phone-contact" class="phone-card">
+                                    <h4>Contact</h4>
+                                    <p>📞 +971-528235077<br/>✉️ hiteshhothhh@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Bottom Navigation -->
+                            <div class="phone-nav">
+                                <button data-scroll-to="summary">Home</button>
+                                <button data-scroll-to="experience">Experience</button>
+                                <button data-scroll-to="contact">Profile</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Features -->
+                <div class="hero-feature animate-on-scroll">
+                     <div class="feature-text">
+                        <h2>Download our App</h2>
+                        <p>Easily access resume & portfolio via mobile. Use App Store or Google Play to download app preview.</p>
+                    </div>
+                    <div class="feature-cards">
+                        <div class="feature-card" data-scroll-to="skills">
+                            <h3>Start Smart</h3>
+                            <p>Find the top skills & experience quickly.</p>
+                        </div>
+                        <div class="feature-card" data-scroll-to="education">
+                            <h3>Be the Next</h3>
+                            <p>Join mission-driven teams and projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Other Sections will go here, following the same pattern -->
+
+            <!-- Skills & AI Tools Section -->
+            <section class="skills-section animate-on-scroll">
+                <div class="skills-content">
+                    <h3>Skills & Expertise</h3>
+                    <div class="skill-tags">
+                        <span>Inventory Management</span>
+                        <span>Procurement</span>
+                        <span>E-commerce</span>
+                        <span>Digital Marketing</span>
+                        <span>ERP (SAP, Oracle)</span>
+                        <span>Power BI</span>
+                        <span>AI Tools</span>
+                        <span>Team Leadership</span>
+                    </div>
+                </div>
+                <div class="skills-content">
+                    <h4>AI & Tools Proficiency</h4>
+                    <div class="tool-grid">
+                        <div class="tool-card">🧠 ChatGPT</div>
+                        <div class="tool-card">🎨 DALL·E</div>
+                        <div class="tool-card">📊 Gemini AI</div>
+                        <div class="tool-card">💻 Copilot</div>
+                        <div class="tool-card">📈 Meta AI</div>
+                        <div class="tool-card">🖼️ MidJourney</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section class="achievements-section animate-on-scroll">
+                <div class="achievement-item">
+                    <div class="stat">+18 <span class="stat-unit">yrs</span></div>
+                    <p>Experience across UAE & India</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="stat">100+</div>
+                    <p>Team & People Managed</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="stat">500+</div>
+                    <p>Vendors / Suppliers Engaged</p>
+                </div>
+            </section>
+            
+            <!-- Experience Section -->
+            <section class="details-section animate-on-scroll">
+                <h3>Full Experience</h3>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <h4>Store Incharge – Larsen & Toubro Ltd (11/2024 – Present)</h4>
+                        <p>Manage store operations at ADNOC Gas Site: inventory management, rental material mobilization, MRIR (Amogh), inspection clearance, ADNOC compliance, digitization.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h4>Unit Manager & Marketing – Dang Enterprises (07/2022 – 11/2024)</h4>
+                        <p>Led 100+ employees across sales, marketing & warehouse. Managed e-commerce operations, campaigns, vendor relations, and order fulfillment.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h4>E-commerce Business Development Coordinator – Hisuma Technologies (08/2017 – 06/2022)</h4>
+                        <p>Managed Amazon, BigBasket, Flipkart Grocery; negotiated JBPs; drove festive launches; P&L and GTM strategies.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h4>Senior Executive Buyer & Documents Controller – Fabtech / L&T (02/2012 – 07/2017)</h4>
+                        <p>Procurement, vendor development, PO management, inventory (Baan & ERP LN), vendor audits, cost optimization.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education & Certifications Section -->
+            <section class="details-section info-card animate-on-scroll">
+                <h3>Education & Certifications</h3>
+                <ul>
+                    <li>Diplomas: Supply Chain, Warehouse, Polymer Physics, Industrial Engineering (Alison)</li>
+                    <li>Google Digital Garage – Fundamentals of Digital Marketing</li>
+                    <li>Great Learning Academy – Digital Marketing, Luxury Brand Mgmt</li>
+                    <li>ERP LN & Baan Training; GST Awareness; Microsoft Power BI Certified</li>
+                </ul>
+            </section>
+            
+            <!-- Contact + App download Section -->
+            <section class="contact-section info-card animate-on-scroll">
+                <div class="contact-text">
+                    <h3>Get in Touch</h3>
+                    <p class="quote">“I’d love to bring my energy and skills to the eJaby Family—let’s connect to make it happen.”</p>
+                    <div class="contact-details">
+                        <div>📞 +971-528235077 | +91-8850856825</div>
+                        <div>✉️ hiteshhothhh@gmail.com</div>
+                        <div>🌍 Abu Dhabi, UAE | Navi Mumbai, India</div>
+                    </div>
+                </div>
+                <div class="app-downloads">
+                    <a href="https://app.adjust.com/1f5v9cwu" class="store-badge"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"></a>
+                    <a href="https://play.google.com/store/apps/details?id=io.tekeya&amp;hl=en" class="store-badge"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play"></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                © 2025 Hitesh Mandal — eJaby
+            </div>
+        </footer>
+    </div>
+</body>
+<style>
+/* --- CSS VARIABLES & BASIC SETUP --- */
+:root {
+    --bg-dark: #064e3b; /* emerald-900 */
+    --bg-medium: #065f46; /* emerald-800 */
+    --bg-light: #10b981; /* emerald-600 */
+    --text-primary: #ffffff;
+    --text-secondary: #a7f3d0; /* emerald-200 */
+    --accent-orange: #fb923c; /* orange-400 */
+    --accent-red: #f87171; /* red-400 */
+    --accent-yellow: #facc15; /* yellow-400 */
+    --font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.05), transparent 40%);
+}
+
+.page-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+/* --- ANIMATIONS & DECORATIONS --- */
+.floating-elements {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    animation: float 10s infinite ease-in-out;
+}
+.c1 { top: 15%; left: 10%; width: 60px; height: 60px; background-color: var(--accent-orange); animation-delay: 0s; }
+.c2 { top: 10%; right: 5%; width: 45px; height: 45px; background-color: var(--accent-red); animation-delay: 1.5s; }
+.c3 { top: 20%; left: 50%; width: 55px; height: 55px; background-color: var(--accent-yellow); animation-delay: 3s; }
+.c4 { top: 80%; left: 5%; width: 35px; height: 35px; background-color: var(--accent-red); opacity: 0.8; animation-duration: 12s; }
+.c5 { bottom: 20%; right: 10%; width: 40px; height: 40px; background-color: var(--accent-orange); opacity: 0.8; animation-delay: 2s; }
+.c6 { bottom: 10%; left: 20%; width: 30px; height: 30px; background-color: var(--accent-yellow); opacity: 0.8; animation-duration: 8s; }
+
+@keyframes float {
+    0% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(180deg); }
+    100% { transform: translateY(0) rotate(360deg); }
+}
+
+/* Scroll Fade-in Animation */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* --- LAYOUT & CONTAINERS --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* --- HEADER --- */
+.main-header {
+    padding: 2rem 0;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.name-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.job-titles {
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+    max-width: 600px;
+}
+.contact-info {
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.linkedin-link {
+    color: var(--text-secondary);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+.linkedin-link:hover {
+    color: var(--text-primary);
+}
+
+
+/* --- HERO SECTION --- */
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 0;
+}
+.hero-feature .feature-text {
+    text-align: center;
+}
+.hero-feature .feature-text h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.hero-feature .feature-text p {
+    color: var(--text-secondary);
+    max-width: 450px;
+    margin: 0 auto;
+}
+.feature-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.feature-card {
+    background-color: rgba(6, 95, 70, 0.6);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(6, 95, 70, 0.9);
+}
+.feature-card h3 {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* --- PHONE MOCKUP --- */
+.phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-mockup {
+    width: 320px;
+    height: 640px;
+    background-color: #111827;
+    border-radius: 40px;
+    padding: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    border: 4px solid #374151;
+    position: relative;
+}
+.phone-notch {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 24px;
+    background-color: #111827;
+    border-radius: 20px;
+    z-index: 20;
+}
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ffffff, #f3f4f6);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.phone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1f2937;
+    font-size: 0.8rem;
+}
+.app-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+.app-brand {
+    background-color: var(--bg-light);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.app-location {
+    color: #6b7280;
+}
+.phone-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0.75rem;
+    space-y: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+/* Custom scrollbar for phone */
+.phone-content::-webkit-scrollbar { width: 5px; }
+.phone-content::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+.phone-content::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+.phone-content::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+.phone-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #f3f4f6;
+    color: #4b5563;
+}
+.phone-card h4 {
+    color: var(--bg-medium);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.phone-card p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+.phone-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.phone-tags span {
+    background-color: #d1fae5;
+    color: #064e3b;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.phone-nav {
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #e5e7eb;
+}
+.phone-nav button {
+    background: none;
+    border: none;
+    color: var(--bg-medium);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+.phone-nav button:hover {
+    background-color: #e5e7eb;
+}
+
+/* --- GENERAL SECTIONS --- */
+.skills-section, .achievements-section, .details-section, .contact-section {
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+.info-card {
+    background-color: rgba(6, 95, 70, 0.6);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+/* --- SKILLS SECTION --- */
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.skills-content h3, .skills-content h4 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+.skill-tags span {
+    background-color: var(--bg-medium);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+.tool-card {
+    background-color: rgba(6, 95, 70, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* --- ACHIEVEMENTS SECTION --- */
+.achievements-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: center;
+    background-color: rgba(6, 95, 70, 0.6);
+    padding: 3rem 2rem;
+    border-radius: 16px;
+}
+.stat {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.stat-unit {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+}
+.achievement-item p {
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+
+/* --- EXPERIENCE & EDUCATION --- */
+.details-section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--bg-light);
+    padding-left: 1rem;
+}
+.experience-list .experience-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+}
+.experience-list .experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.experience-item h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.experience-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    line-height: 1.7;
+}
+.details-section ul {
+    list-style-position: inside;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* --- CONTACT SECTION --- */
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+.quote {
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-top: 1rem;
+    border-left: 3px solid var(--bg-light);
+    padding-left: 1rem;
+}
+.contact-details {
+    margin-top: 1.5rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+.app-downloads {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+.store-badge img {
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+.store-badge:hover img {
+    transform: scale(1.05);
+}
+
+/* --- FOOTER --- */
+.main-footer {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+/* --- RESPONSIVE DESIGN --- */
+@media (min-width: 768px) {
+    .feature-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .skills-section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-section {
+        grid-template-columns: 2fr 1fr;
+    }
+    .app-downloads {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        grid-template-columns: 1fr auto 1fr;
+    }
+    .hero-feature .feature-text {
+        text-align: left;
+    }
+    .hero-feature .feature-text p {
+        margin: 0;
+    }
+    .name-title {
+        font-size: 2.5rem;
+    }
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- Phone Scrolling Functionality ---
+    const phoneContent = document.querySelector('.phone-content');
+    
+    // Function to scroll to a specific section inside the phone
+    const scrollToPhoneSection = (sectionId) => {
+        if (!sectionId) return;
+        
+        const targetElement = document.getElementById(`phone-${sectionId}`);
+        
+        if (targetElement && phoneContent) {
+            // Calculate the position to scroll to, centering the element
+            const topPos = targetElement.offsetTop - (phoneContent.clientHeight / 2) + (targetElement.clientHeight / 2);
+            
+            phoneContent.scrollTo({
+                top: topPos,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+    // Use event delegation to handle all clicks that should trigger a scroll
+    document.body.addEventListener('click', (event) => {
+        const trigger = event.target.closest('[data-scroll-to]');
+        if (trigger) {
+            const sectionId = trigger.dataset.scrollTo;
+            scrollToPhoneSection(sectionId);
+        }
+    });
+
+
+    // --- Animate Sections on Scroll ---
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                // Optional: stop observing the element once it's visible
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1 // Trigger when 10% of the element is visible
+    });
+
+    animatedElements.forEach(element => {
+        observer.observe(element);
+    });
+
+});
+</script>
+</html>
